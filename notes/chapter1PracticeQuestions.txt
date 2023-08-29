@@ -1,0 +1,46 @@
+1.
+* operator
+'hello' value
+-88.8 value
+- operator
+/ operator
++ operator
+5 value
+
+2.
+variable
+string
+
+3.
+float
+integer
+string
+
+4.
+operator and integer / flag
+a: Expressions are a combination of values and operators. All expressions reduce to a single value.
+
+5.
+
+flag
+a: Expressions reduce to a single value. A statement does not.
+
+6. 
+21
+a: to make the value equal 21 you would need a statement of bacon = bacon + 1
+
+7. 
+spamspamspam
+won't run / flag
+a: both equate to spamspamspam
+
+8.
+variable names can't begin with a number
+
+9. 
+int ()
+str ()
+float ()
+
+10. 
+change 99 to str ('99')
