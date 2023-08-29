@@ -1,0 +1,31 @@
+read text file for race, display racial stat/feat bonuses, and give player choice
+read text file for class, display classes, and give player choice
+read text file for character stats, display stat names, have player roll stats and add stat bonuses from step 2
+read text file for character feats, display feats, give player choice, and add feat bonuses from step 2
+
+
+# variables created for the text files
+charRaces = "dndRoller\races.txt"
+charClasses = "dndRoller\classes.txt"
+charFeats = "dndRoller\feats.txt"
+charStats = "dndRoller\stats.txt"
+
+charRaces_handle = open(charRaces, "r") # Open file as read-only
+charRaces_contents = charRaces_handle.read() # Read of contents
+charRaces_handle.close() # Close file when finished
+
+# Player input loop
+while True:
+    print('Please choose a race from below or type (q) to exit:', charRaces_contents)
+    charRaceChoice = input()
+    if charRaceChoice == 'q':
+        sys.exit()
+    elif charRace == 'human' or  charRaceChoice == 'half-elf'or  charRaceChoice == 'orc'or  charRaceChoice == 'gnome'or  charRaceChoice == 'hogoblin'or  charRaceChoice == 'fae':
+        break
+    print('Type a race to make your choice.')
+    
+    if charRaceChoice == 'human':
+        print('You chose human, they have a +1 to all stats. Would you like to change your choice? If so please type (y)es or (n)o.')
+        charChangeInput = input()
+        if charChangeInput == 'y':
+            break
