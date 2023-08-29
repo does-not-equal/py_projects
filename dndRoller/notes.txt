@@ -14,18 +14,4 @@ charRaces_handle = open(charRaces, "r") # Open file as read-only
 charRaces_contents = charRaces_handle.read() # Read of contents
 charRaces_handle.close() # Close file when finished
 
-# Player input loop
-while True:
-    print('Please choose a race from below or type (q) to exit:', charRaces_contents)
-    charRaceChoice = input()
-    if charRaceChoice == 'q':
-        sys.exit()
-    elif charRace == 'human' or  charRaceChoice == 'half-elf'or  charRaceChoice == 'orc'or  charRaceChoice == 'gnome'or  charRaceChoice == 'hogoblin'or  charRaceChoice == 'fae':
-        break
-    print('Type a race to make your choice.')
-    
-    if charRaceChoice == 'human':
-        print('You chose human, they have a +1 to all stats. Would you like to change your choice? If so please type (y)es or (n)o.')
-        charChangeInput = input()
-        if charChangeInput == 'y':
-            break
+Write a function that can be copy pasted into the race and class loop that removes the need to manually takes the class or race and adds it to a string function 
