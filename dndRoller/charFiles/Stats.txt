@@ -1,7 +1,0 @@
-Strength / raw physical power
-Perception / environmental awareness
-Endurance / overall health
-Charisma / your ability to charm and convince others
-Intelligence / overall mental intellect
-Agility / overall finesse and reflexes
-Luck / a measure of your general good fortune

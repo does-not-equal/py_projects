@@ -1,7 +1,4 @@
-read text file for race, display racial stat/feat bonuses, and give player choice
-read text file for class, display classes, and give player choice
-read text file for character stats, display stat names, have player roll stats and add stat bonuses from step 2
-read text file for character feats, display feats, give player choice, and add feat bonuses from step 2
+create a character roller for dnd. i want to roll a character from player input.
 
 Write a function that can be copy pasted into the race and class loop that removes the need to manually takes the class or race and adds it to a string function 
 
