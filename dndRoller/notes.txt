@@ -3,15 +3,17 @@ read text file for class, display classes, and give player choice
 read text file for character stats, display stat names, have player roll stats and add stat bonuses from step 2
 read text file for character feats, display feats, give player choice, and add feat bonuses from step 2
 
-
-# variables created for the text files
-charRaces = "dndRoller\races.txt"
-charClasses = "dndRoller\classes.txt"
-charFeats = "dndRoller\feats.txt"
-charStats = "dndRoller\stats.txt"
-
-charRaces_handle = open(charRaces, "r") # Open file as read-only
-charRaces_contents = charRaces_handle.read() # Read of contents
-charRaces_handle.close() # Close file when finished
-
 Write a function that can be copy pasted into the race and class loop that removes the need to manually takes the class or race and adds it to a string function 
+
+
+You chose human and receive a +1 to all stats.
+
+You chose half elf and receive a +1 perception and +1 agility.'
+
+You chose orc and receive a +1 endurance, +1 strength, and -1 charisma.
+
+You chose gnome and receive a -1 strength, +1 perception, and +1 intelligence.
+
+You chose hobgoblin and receive a +1 endurance, +2 strength, -2 charisma, and -1 intelligence.
+
+You chose fae and receive a -2 strength, -1 endurance, +2 all other stats.
