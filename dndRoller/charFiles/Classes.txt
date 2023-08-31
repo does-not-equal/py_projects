@@ -1,6 +1,0 @@
-warrior
-paladin
-witch
-cleric
-ranger
-rogue
