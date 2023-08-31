@@ -1,0 +1,4 @@
+for future reference and easy access on all of my systems.
+
+inventwithpython.com/pythongently (currently on exercise two)
+automatetheboringstuff.com
