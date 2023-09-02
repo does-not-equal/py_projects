@@ -1,4 +1,4 @@
 for future reference and easy access on all of my systems.
 
-inventwithpython.com/pythongently (currently on exercise two)
+inventwithpython.com/pythongently (currently on exercise six)
 automatetheboringstuff.com
