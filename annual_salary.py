@@ -5,4 +5,5 @@ def annual_salary():
     salary = weekly * 52
     return print("$" + str(salary))
 
+
 annual_salary()

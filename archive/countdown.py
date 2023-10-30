@@ -1,5 +1,7 @@
 # countdown script
-import time, subprocess
+import time
+import subprocess
+
 
 timeLeft = 60
 while timeLeft > 0:

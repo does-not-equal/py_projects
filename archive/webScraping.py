@@ -5,7 +5,7 @@ url = input('Enter - ')
 html = urllib.request.urlopen(url).read()
 soup = BeautifulSoup(html, 'html.parser')
 
-# Retreive all of the anchor tags
+# Retrieve all the anchor tags
 tags = soup('a')
 for tag in tags:
     print(tag.get('href', None))
